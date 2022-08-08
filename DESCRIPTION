@@ -1,13 +1,26 @@
 Package: createowntutaatlas
 Title: Create your own tunaatlas
 Version: 0.0.0.9000
-Authors@R: person('Bastien', 'Grasset', email = 'bastien.grasset@ird.fr', role = c('cre', 'aut'))
-Description: This app allows you to create your own tunaatlas with the options you have choosen and to get the results and the explenation of the treatments made.
+Authors@R: 
+    person("Bastien", "Grasset", , "bastien.grasset@ird.fr", role = c("cre", "aut"))
+Description: This app allows you to create your own tunaatlas with the
+    options you have choosen and to get the results and the explenation of
+    the treatments made.
 License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.3),
     shiny (>= 1.7.1)
+Suggests: 
+    knitr,
+    rmarkdown,
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
 Encoding: UTF-8
+Language: en-US
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.0
+VignetteBuilder: knitr
+URL: https://github.com/BastienIRD/createowntutaatlas
+BugReports: https://github.com/BastienIRD/createowntutaatlas/issues
